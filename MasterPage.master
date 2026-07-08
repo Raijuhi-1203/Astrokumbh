@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Astrokumbh</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.html">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.html">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicons/favicon.ico">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-150x150.html">
+    <meta name="theme-color" content="#ffffff">
+    <%--<meta name="description" content="Digital Bull is a Top Digital Marketing Agency in Gorakhpur, India. It provides SEO, SMM, Website Design, Lead Generate, and PPC Services to grow your business." />--%>
+    <meta name="keywords" content="Best astrology in lucknow, Best numerologist courses in lucknow, Best tarot reading courses in lucknow, Astrology beginner to advanced course, Advance tarot card workshop in lucknow, Online astrology consultation, Lucknow kundli expert astrologer, Best vashikaran specialist in lucknow, Pregnancy problem solution astrologer in lucknow, Love life astrology, Astrologer career consultation" />
+
+    <link href="vendors/loaders.css/loaders.min.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+    <link href="vendors/hamburgers/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+    <link href="assets/css/theme.min.css" rel="stylesheet" />
+    <link href="assets/css/user.min.css" rel="stylesheet" />
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WSTRVWPZ');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSTRVWPZ"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <form id="form1" runat="server">
+
+        <main class="main" id="top" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+
+            <div class="loading" id="preloader">
+                <div class="h-100 d-flex align-items-center justify-content-center">
+                    <div class="spinner">
+                        <svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="length" fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+                        </svg><svg class="preloader" viewbox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+                        </svg>
+                    </div>
+                    <div class="loader">
+                        <div class="row text-center align-items-center justify-content-center h-100">
+                            <div class="col-6">
+                                <h4 class="color-white">Loading...</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-layout="container">
+                <div class="content">
+
+                    <nav class="navbar navbar-top navbar-nirvana navbar-expand-lg fixed-top top-0 start-0 end-0" style="background-color: #FF5722 !important;">
+                        <div class="container py-lg-4">
+                            <a class="navbar-brand position-lg-absolute start-50 top-50 translate-lg-middle" href="#">
+                                <img src="assets/images/logo.png" alt="" width="100" style="border-radius: 100px;" />
+                            </a>
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hamburger-icon="data-hamburger-icon"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"><span class="hamburger-inner"></span></span></span></button>
+                            <div class="collapse navbar-collapse navbar-nav-top w-100" id="navbarNavDropdown" data-top-nav-dropdowns="data-top-nav-dropdowns">
+                                <ul class="navbar-nav py-0 py-lg-2 navitem-span-left">
+                                    <li><a class="dropdown-item" href="index.aspx">Home</a></li>
+                                    <li><a class="dropdown-item" href="about.aspx">About Us</a></li>
+                                    <li><a class="dropdown-item" href="course.aspx">Courses</a></li>
+
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Service<span class="fas fa-chevron-down dropdown-toggle-icon"></span></a>
+                                        <ul class="dropdown-menu navbar-dropdown-caret">
+                                            <li><a class="dropdown-item" href="astrology.aspx">Astrology </a></li>
+                                            <li><a class="dropdown-item" href="numerology.aspx">Numerology</a></li>
+                                            <li><a class="dropdown-item" href="palmistry.aspx">Palmistry</a></li>
+                                            <li><a class="dropdown-item" href="tarot-reading.aspx">Tarot</a></li>
+                                            <li><a class="dropdown-item" href="rekei-healing.aspx">Rekei healing</a></li>
+                                            <li><a class="dropdown-item" href="aura-scanning.aspx">Aura scanning</a></li>
+                                            <li><a class="dropdown-item" href="prasnahna-kundali.aspx">Prasnahna kundli</a></li>
+                                            <li><a class="dropdown-item" href="job-carrier.aspx">Job and carrier</a></li>
+                                            <li><a class="dropdown-item" href="relationship.aspx">Relationship counselling</a></li>
+                                            <li><a class="dropdown-item" href="marriage.aspx">Marriage problem solution and counselling</a></li>
+                                            <li><a class="dropdown-item" href="marriage-delay.aspx">Marriage delay solution</a></li>
+                                            <li><a class="dropdown-item" href="divya-santaan.aspx">Divya Santan Siddhi Solutions</a></li>
+                                            <li><a class="dropdown-item" href="baby-related.aspx">Child less couple problem solutions</a></li>
+                                            <li><a class="dropdown-item" href="business.aspx">Business counselling</a></li>
+                                            <li><a class="dropdown-item" href="political-carrier.aspx">Political carrier counselling</a></li>
+                                            <li><a class="dropdown-item" href="share-market.aspx">Share market counselling</a></li>
+                                            <li><a class="dropdown-item" href="name-business-mobile.aspx">Name, business name and mobile number digits prediction</a></li>
+                                            <li><a class="dropdown-item" href="car-number.aspx">Car number counselling</a></li>
+                                            <li><a class="dropdown-item" href="name-correction.aspx">Name correction</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                                <ul class="navbar-nav ms-auto me-0 py-0 py-lg-2 navitem-span-right">
+                                    <li><a class="dropdown-item" href="vastu.aspx">Vastu</a></li>
+                                    <li><a class="dropdown-item" href="puja-anushtan.aspx">Puja & Anusthan</a></li>
+                                    <li><a class="dropdown-item" href="shop.aspx">Shop</a></li>
+                                    <li><a class="dropdown-item" href="contact.aspx">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <%-- <img src="assets/images/footer-slide.jpg" />--%>
+                    <footer class="py-6 py-md-8 text-center" data-zanim-timeline="{}" data-zanim-trigger="scroll" style="background-image: url(assets/images/footer-slide.jpg);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12" data-zanim-xs='{"delay":0}'><a class="text-black mx-3" href="about.aspx">About</a><a class="text-black mx-3" href="contact.aspx">Contact Us</a><a class="text-black mx-3" href="term.aspx">Terms &amp; Condition </a></div>
+                                <div class="col-12 my-3" data-zanim-xs='{"delay":0.1}'>
+                                    <img src="assets/images/logo.png" alt="" style="width: 15%; border-radius: 100px;" />
+                                </div>
+
+                                <div class="col-12 font-sans-serif" data-zanim-xs='{"delay":0.2}'>
+                                    <div class="fs-9 text-black mb-3">
+                                        <a class="text-black" href="tel:9795034751">+91-9795034751 </a><span class="px-3 d-none d-md-inline-block">&#9679;</span><br class="d-block d-md-none" />
+                                        <span class="mt-4 mt-md-9">C-639 omaxe city , Lucknow, India, Uttar Pradesh </span><span class="px-3 d-none d-md-inline-block">&#9679;</span><br class="d-block d-md-none" />
+                                        <a class="text-black mt-4 mt-md-0" href="mailto:bharteepatel9999@gmail.com">bharteepatel9999@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 font-sans-serif" data-zanim-xs='{"delay":0.2}'>
+                                    <div class="fs-9 text-black mb-3">
+                                        <a href="https://www.facebook.com/profile.php?id=100063721555266"><i class="fab fa-facebook-f" style="font-size: 25px; margin-left: 15px;"></i></a>
+                                        <a href="https://www.instagram.com/astrokumbh36/"><i class="fab fa-instagram" style="font-size: 25px; margin-left: 15px;"></i></a>
+                                        <a href="https://www.youtube.com/@AstrokumbhYT"><i class="fab fa-youtube" style="font-size: 25px; margin-left: 15px;"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-12" data-zanim-xs='{"delay":0.4}'>
+                                    <h6 class="fw-semi-bold mt-5 text-uppercase text-black">2025 All Rights Reserved by <a class="fw-bolder text-black p-0 text-decoration-underline" href="https://astrokumbh.com/">Astrokumbh</a>. Design & Developed by <a class="fw-bolder text-black p-0 text-decoration-underline" href="https://digitalbull.in/">DigitalBull</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </main>
+
+    </form>
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"> </script>
+    <script src="vendors/rellax/rellax.js"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="vendors/gsap/gsap.js"></script>
+    <script src="vendors/gsap/customEase.js"></script>
+    <script src="vendors/gsap/drawSVGPlugin.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+</body>
+
+</html>
